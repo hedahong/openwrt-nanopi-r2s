@@ -4,8 +4,8 @@ set -eu
 
 rm -rf openwrt
 
-#git clone -b master https://github.com/openwrt/openwrt.git openwrt
-git clone -b master https://github.com/coolsnowwolf/lede.git openwrt
+git clone -b master https://github.com/openwrt/openwrt.git openwrt
+#git clone -b master https://github.com/coolsnowwolf/lede.git openwrt
 
 # customize patches
 pushd openwrt
